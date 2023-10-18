@@ -1,0 +1,24 @@
+.movie-list {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0.75em 0em;
+    overflow-y: hidden;
+}
+
+/* CSS cho thanh cuộn */
+::-webkit-scrollbar {
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #292929; /* Màu nền của phần track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #11171a; /* Màu của thanh cuộn */
+    /* Độ cong góc của thanh cuộn */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Màu của thanh cuộn khi hover */
+}

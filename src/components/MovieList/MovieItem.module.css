@@ -1,0 +1,9 @@
+.movie-item img {
+    height: 6.25em;
+    transition: 0.25s;
+    transform: scale(0.95);
+}
+
+.movie-item img:hover {
+    transform: scale(1.05);
+}

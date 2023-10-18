@@ -1,0 +1,13 @@
+.movie-item {
+    display: flex;
+    align-items: center;
+}
+.movie-item img {
+    width: 8.2em;
+    transition: 0.25s;
+    transform: scale(0.95);
+}
+
+.movie-item img:hover {
+    transform: scale(1.05);
+}

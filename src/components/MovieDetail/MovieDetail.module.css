@@ -1,0 +1,33 @@
+.detail-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    line-height: 1.25em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.detail-container div {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+.divider {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 1.25em;
+    border-bottom: solid white 1px;
+}
+.info {
+    font-weight: bold;
+}
+.overview {
+    margin-top: 1em;
+    color: #bbbbbb;
+}
+
+.default-img {
+    width: 100%;
+}
+.movie-name {
+    line-height: 1em;
+}
